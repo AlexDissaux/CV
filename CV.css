@@ -1,0 +1,83 @@
+:root {
+  --primary-color: #1d3557;
+  --secondary-color: #457b9d;
+  --text-color: #333;
+  --light-grey: #f8f9fa;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fff;
+  color: var(--text-color);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1000px;
+  margin: 2rem auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+aside {
+  background: var(--light-grey);
+  padding: 2rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  color: var(--primary-color);
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: var(--secondary-color);
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3rem;
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.job {
+  margin-bottom: 1rem;
+}
+
+.job-title {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.company {
+  font-style: italic;
+  color: #666;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background: var(--secondary-color);
+  color: white;
+  padding: 0.3rem 0.6rem;
+  margin: 0.2rem 0;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.contact p {
+  margin: 0.4rem 0;
+  font-size: 0.9rem;
+}
