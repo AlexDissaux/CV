@@ -12,27 +12,25 @@ body {
   color: var(--text-color);
 }
 
+
 .container {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  max-width: 1000px;
-  margin: 2rem auto;
+  max-width: 800px;
+  margin: 0;
+  padding: 0;
   background: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
-aside {
-  background: var(--light-grey);
-  padding: 2rem;
-}
+
 
 main {
-  padding: 2rem;
+  padding: 0;
 }
 
 h1 {
   font-size: 2rem;
   margin-bottom: 0;
+  margin-top: 0;
   color: var(--primary-color);
 }
 
@@ -42,6 +40,10 @@ h2 {
   color: var(--secondary-color);
   border-bottom: 1px solid #ccc;
   padding-bottom: 0.3rem;
+}
+
+p {
+  margin-top: 0.2rem;
 }
 
 .section {
@@ -55,11 +57,13 @@ h2 {
 .job-title {
   font-weight: bold;
   color: var(--primary-color);
+  margin-bottom: 0.2rem;
 }
 
 .company {
   font-style: italic;
   color: #666;
+  margin: 0;
 }
 
 .skills ul {
