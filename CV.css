@@ -1,3 +1,24 @@
+/* Table de compétences */
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.2rem 0;
+}
+.skills-table td {
+  padding: 0.3rem 1.2rem 0.3rem 0;
+  vertical-align: top;
+  font-size: 1.08rem;
+  border: none;
+}
+.skills-table td:first-child {
+  font-weight: 500;
+  color: #444;
+  white-space: nowrap;
+  width: 170px;
+}
+.skills-table strong {
+  color: #1d3557;
+}
 :root {
   --primary-color: #1d3557;
   --secondary-color: #457b9d;
