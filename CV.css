@@ -2,35 +2,40 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 1.3rem;
+  }
+
+p {
+  margin-bottom: 0;
+  margin-top: 0.2rem;
 }
+  
 /* Table de compétences */
 .skills-table {
   width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
+  margin: 0.3rem 0 0.2rem 0;
 }
 .skills-table td {
-  padding: 0.3rem 1rem 0.3rem 0;
-  vertical-align: top;
-  font-size: 1.08rem;
+  font-size: 0.9rem;
   border: none;
+  padding: 0.15rem 0.8rem 0.15rem 0;
+  vertical-align: top;
 }
 
 .smaller {
-  font-size: 0.85rem !important;
+  font-size: 0.8rem !important;
+  vertical-align: middle;
 }
 
 .job-desc {
   font-size: 0.85rem !important;
-  margin-left: 1.2rem;
+  margin-left: 1.5rem;
 }
 
 .skills-table td:first-child {
   font-weight: 500;
   color: #444;
+  width: 150px;
   white-space: nowrap;
-  width: 170px;
 }
 .skills-table strong {
   color: #1d3557;
@@ -59,7 +64,6 @@ body {
   margin-left: 2rem;
 }
 
-
 .container {
   max-width: 800px;
   margin: 0;
@@ -67,8 +71,6 @@ body {
   background: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
-
-
 
 main {
   padding: 0;
@@ -82,23 +84,24 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2rem;
-  margin-top: 2rem;
+  font-size: 1.1rem;
   color: var(--secondary-color);
   border-bottom: 1px solid #ccc;
-  padding-bottom: 0.3rem;
-}
-
-p {
-  margin-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.4rem;
 }
 
 .section {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.section.skills {
+  margin-bottom: 0.4rem;
 }
 
 .job {
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
 
 .job-title {
@@ -128,7 +131,25 @@ p {
   font-size: 0.9rem;
 }
 
-.contact p {
-  margin: 0.4rem 0;
-  font-size: 0.9rem;
+.job-achievements {
+  margin-left: 1.5rem;
+}
+
+.job-achievements h4 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+  margin: 0.3rem 0;
+  border: none;
+}
+
+.job-achievements ul {
+  margin: 0.3rem 0;
+  padding-left: 1rem;
+}
+
+.job-achievements li {
+  font-size: 0.75rem;
+  margin: 0.2rem 0;
+  color: #555;
 }
