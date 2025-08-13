@@ -2,7 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  }
+}
+
+.name-title-flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: nowrap;
+}
 
 p {
   margin-bottom: 0;
@@ -81,6 +88,13 @@ h1 {
   margin-bottom: 0;
   margin-top: 0;
   color: var(--primary-color);
+}
+
+.job-title-header {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin: 0.3rem 0;
 }
 
 h2 {
