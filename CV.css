@@ -1,3 +1,9 @@
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
 /* Table de compétences */
 .skills-table {
   width: 100%;
@@ -31,6 +37,16 @@ body {
   margin: 0;
   background: #fff;
   color: var(--text-color);
+}
+
+.profile-img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  border: 3px solid #fff;
+  margin-left: 2rem;
 }
 
 
