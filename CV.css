@@ -29,13 +29,13 @@ p {
 }
 
 .smaller {
-  font-size: 0.8rem !important;
+  font-size: 0.8rem;
   vertical-align: middle;
 }
 
 .job-desc {
-  font-size: 0.85rem !important;
-  margin-left: 1.5rem;
+  font-size: 0.85rem;
+  margin-left: 1.2rem;
 }
 
 .skills-table td:first-child {
@@ -115,7 +115,7 @@ h2 {
 }
 
 .job {
-  margin-bottom: 0.3rem;
+  margin-bottom: 1rem;
 }
 
 .job-title {
@@ -124,29 +124,8 @@ h2 {
   margin-bottom: 0.2rem;
 }
 
-.company {
-  font-style: italic;
-  color: #666;
-  margin: 0;
-}
-
-.skills ul {
-  list-style: none;
-  padding: 0;
-}
-
-.skills li {
-  background: var(--secondary-color);
-  color: white;
-  padding: 0.3rem 0.6rem;
-  margin: 0.2rem 0;
-  display: inline-block;
-  border-radius: 5px;
-  font-size: 0.9rem;
-}
-
 .job-achievements {
-  margin-left: 1.5rem;
+  margin-left: 2rem;
 }
 
 .job-achievements h4 {
@@ -166,4 +145,11 @@ h2 {
   font-size: 0.75rem;
   margin: 0.2rem 0;
   color: #555;
+}
+
+.company {
+  font-style: italic;
+  color: #666;
+  margin: 0;
+  font-size: 0.85rem;
 }
