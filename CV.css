@@ -146,6 +146,11 @@ h2.name-header {
   padding-left: 1rem;
 }
 
+.job-desc strong {
+  font-size: 0.75rem;
+  margin: 0.2rem 0;
+  color: #555;}
+
 .job-achievements li {
   font-size: 0.75rem;
   margin: 0.2rem 0;
