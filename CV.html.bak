@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexandre Dissaux - CV</title>
+  <link rel="stylesheet" href="CV.css">
+</head>
+<body>
+  <div class="container">
+    <main>
+      <header class="header-flex">
+        <div style="display: inline-block; max-width: 80%;">
+          <h2 class="name-header">Alexandre Dissaux</h2><h1>Développeur Full Stack (6 ans d'exp.)</h1>
+          <p>Développeur fullstack (6+ ans) avec expérience en construction d’applications grand public à forte volumétrie (Orange, Ministère de l’Intérieur). Orienté TypeScript/JavaScript, recherche un poste de développeur full stack en remote</p>
+        </div>
+        <img src="img.jpg" alt="Photo de profil" class="profile-img">
+      </header>
+      <section class="section skills">
+        <h2>Compétences</h2>
+        <table class="skills-table">
+          <tr>
+            <td><strong>Langages&nbsp;:</strong></td>
+            <td class="smaller"><strong>TypeScript/Javascript</strong>, <strong>Python</strong>, java, c</td>
+          </tr>
+          <tr>
+            <td><strong>Web&nbsp;:</strong></td>
+            <td class="smaller"><strong>Angular</strong>, NodeJS, <strong>Flask</strong> ,React, <strong>NestJS</strong>, Next</td>
+          </tr>
+          <tr>
+            <td><strong>DevOps et infra&nbsp;:</strong></td>
+            <td class="smaller"><strong>CI/CD</strong>, sonar, <strong>NX</strong>, <strong>Docker</strong>, GCP, Azure, <strong>MongoDB</strong>, SQL</td>
+          </tr>
+          <tr>
+            <td><strong>Outils et autres&nbsp;:</strong></td>
+            <td class="smaller"><strong>Playwright</strong>, <strong>Jest</strong>, Méthode Agile, <strong>TDD</strong>, <strong>Pair/mob</strong></td>
+          </tr>
+        </table>
+      </section>
+      <section class="section">
+        <h2>Expérience</h2>
+        <div class="job">
+          <p><span class="job-title">Développeur Full Stack</span>. <span class="company">Orange · Janv. 2025 - Aujourd'hui</span></p>
+          <p class="job-desc">Conception et développement from scratch du nouvel espace client web d'Orange. (Angular, Nest, Nx, Jest, Playwright, to-be-continuous)</p>
+          <div class="job-achievements">
+            <ul>
+              <li>Création de l'architecture technique sur <strong>Angular</strong> avec une structure du projet en <strong>NX monorepo</strong></li>
+              <li>Création de la <strong>CI/CD</strong> pour le développement continu et les déploiements</li>
+              <li>Création d'outil en <strong>NestJS</strong> (mock API)</li>
+              <li>Mise en place de <strong>sonar</strong>, <strong>renovate</strong>, <strong>Playwright</strong> et d'autres outils de qualité</li>
+            </ul>
+          </div>
+        </div>
+        <div class="job">
+          <p><span class="job-title">Développeur Full Stack puis Tech lead d'équipe</span>. <span class="company">Ministère de l’Intérieur – ANEF · Janv. 2021 - Déc. 2024</span></p>
+          <p class="job-desc">Développement full stack de l’application ANEF utilisée par plusieurs millions de citoyens français et étrangers .</p>
+          <p class="job-desc">Évolution vers un rôle de Tech Lead : encadrement technique d'équipe, accompagnement et pilotage.</p>
+          <div class="job-achievements">
+            <ul>
+              <li>Chiffrage de projet et création de document de conception technique</li>
+              <li>Suivi de projet / Réalisation du besoin jusqu'en production. Techno : <strong>Angular</strong>, <strong>Python (Flask)</strong>, <strong>MongoDB</strong></li>
+              <li>Création d'outil d'intégration, script bash / <strong>Github Action</strong></li>
+            </ul>
+          </div>
+        </div>
+        <div class="job">
+          <p><span class="job-title">Développeur développement logiciel (alternance)</span>. <span class="company">Safran · Sept. 2019 - Sept. 2020</span></p>
+          <p class="job-desc">Création d'outils de génération de fichiers de configuration pour les calculateurs moteurs embarqués sur des hélicoptères militaires. (Java)</p>
+          <div class="job-achievements">
+            <ul>
+              <li>Développement logiciel en <strong>JAVA</strong></li>
+              <li>Compréhension du fonctionnement des calculateurs embarqués</li>
+            </ul>
+          </div>
+        </div>
+        <div class="job">
+          <p><span class="job-title">Développeur développement plateforme DevOps (Stage)</span>. <span class="company">Infobam · Avril 2019 - Sept. 2019</span></p>
+          <p class="job-desc">Création d'une plateforme web DevOps en NodeJS servant au monitoring des serveurs et applications d’ INFOBAM</p>
+          <div class="job-achievements">
+            <ul>
+              <li>Création et mise en place de la structure (API REST / IHM / BDD)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <h2>Formation</h2>
+        <div class="job">
+          <p><span class="job-title">CY Tech</span> <span class="degree">Diplôme d'ingénieur en développement informatique spécialité Web et Cloud</span>
+           . <span class="company">2015 - 2020</span></p>
+        </div>
+      </section>
+      <section class="section">
+        <h2>Github personnel</h2>
+        <div class="job">
+          <p><a href='https://github.com/AlexDissaux?tab=repositories'>https://github.com/AlexDissaux?tab=repositories</a></p>
+          <!-- <p><span class="degree">Jeu de stratégie, Roller, Randonnée/Trekking</span></p> -->
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
