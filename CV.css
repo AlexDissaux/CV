@@ -186,9 +186,83 @@ section:last-child p {
   color: #444;
 }
 
+/* ── Personal projects ── */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+  margin-top: 0.45rem;
+}
+
+.project-card {
+  border: 1px solid #e6e6e6;
+  border-left: 3px solid #bdbdbd;
+  border-radius: 8px;
+  padding: 0.55rem 0.65rem;
+  background: #fafafa;
+}
+
+.project-card h3 {
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 0.15rem;
+}
+
+.project-card .entry-context {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+.project-card a,
+.shared-repo a {
+  font-size: 0.78rem;
+  color: #222;
+  text-decoration: none;
+  border-bottom: 1px solid #bfbfbf;
+  word-break: break-word;
+}
+
+.project-card a:hover,
+.shared-repo a:hover {
+  color: #000;
+  border-bottom-color: #222;
+}
+
+.shared-repo {
+  margin-top: 0.55rem;
+}
+
+@media (max-width: 720px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ── Print ── */
 @media print {
   body { background: #fff; }
   .page { padding: 0; max-width: none; }
   .photo { filter: none; }
+
+  /* Firefox print: keep 2 columns without relying on grid rendering. */
+  .projects-grid {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 0.45rem;
+  }
+
+  .project-card {
+    flex: 1 1 0;
+    min-width: 0;
+    margin-bottom: 0;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .shared-repo {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
 }
